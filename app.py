@@ -167,7 +167,7 @@ elif selected == "About":
 
         st.write(
             "This platform is based on the master’s thesis"
-            ""Perspectives on Security and Defence among Young Europeans and in the Media:""
+            "Perspectives on Security and Defence among Young Europeans and in the Media:"
             "A Cross-National Discourse Analysis on Communication Challenges for the Defence Industry."
         )
 
