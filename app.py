@@ -370,6 +370,7 @@ elif selected == "Theory":
         st.write(
             "Focusing on Gen Z helps explain why defence communication must respond to audiences that are digitally shaped,"
             "value-driven, and often distant from traditional defence narratives."
+        )
 
     elif theory_page == "cross_communication":
         st.title("Cross-communication challenges")
