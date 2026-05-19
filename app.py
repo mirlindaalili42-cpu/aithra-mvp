@@ -316,7 +316,7 @@ elif selected == "Theory":
         st.write(
             "The European military-industrial complex developed in three main phases."
             "During the Cold War, defence production was largely state-driven and organised around national security"
-            "priorities. 
+            "priorities."
             "After the Cold War, lower defence budgets, rising costs, and market pressures led to consolidation,"
             "privatisation, and greater European cooperation."
             "Since Russia’s invasion of Ukraine, defence has regained strategic urgency, bringing renewed investment,"
