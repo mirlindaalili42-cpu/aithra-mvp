@@ -74,7 +74,7 @@ if page != "landing":
 # Landing screen
 if page == "landing":
     st.title("Welcome to Aithra")
-    st.subheader("Your interactive interface for qualitative discourse analysis on defence and security communication.")
+    st.subheader("A professional platform for exploring how defence and security narratives are constructed, compared, and interpreted in the media across the UK, Germany, France, and Spain.")
 
 # About screen
 elif selected == "About":
@@ -133,22 +133,25 @@ elif selected == "About":
 
         st.markdown("### What does the app do?")
         st.write(
-            "The app helps users engage with discourse analysis in an interactive way. "
-            "It provides a space to navigate concepts, explore discourse material, "
-            "and compare themes, cases, and communicative patterns."
+            "Aithra translates qualitative thesis research into a clear and structured digital format."
+            "It helps users compare findings and better understand how communication narratives are"
+            "constructed across different national contexts."
         )
 
         st.markdown("### Why was it created?")
         st.write(
-            "Aithra was developed as a bridge between qualitative research and digital "
-            "research communication. It translates complex analytical work into a form "
-            "that is easier to access and explore."
+            "Aithra was created to present qualitative research in a more professional, accessible,"
+            and engaging way."
+            "It transforms complex analytical work into a digital format that makes findings"
+            "easier to navigate, compare, and communicate."
         )
 
         st.markdown("### Who is it for?")
         st.write(
-            "The interface can be useful for researchers, students, and wider audiences "
-            "interested in defence, security, discourse, and political communication."
+            "The platform was developed primarily for the communication department to provide clear and"
+            "easy access to the main findings of the master’s thesis. It can also serve anyone interested" 
+            "in defence, security, and media discourse"
+
         )
 
     # RESEARCH PAGE
@@ -163,30 +166,39 @@ elif selected == "About":
         st.markdown("---")
 
         st.write(
-            "The research focuses on defence and security communication in Europe. "
-            "It examines how political and institutional actors communicate about "
-            "security issues, justify strategic choices, and construct meaning around "
-            "threat, responsibility, legitimacy, and defence."
+            "This platform is based on the master’s thesis"
+            ""Perspectives on Security and Defence among Young Europeans and in the Media:""
+            "A Cross-National Discourse Analysis on Communication Challenges for the Defence Industry."
         )
 
         st.markdown("### Research focus")
         st.write(
-            "The project is interested in discourse as a way of understanding how defence "
-            "and security are framed, explained, and made politically meaningful."
+            "Developed in the Sustainability and Communication Department, the thesis explores how"
+            "media discourse constructs meanings around security and defence and how these"
+            "constructions contribute to shaping social reality."
+            
+            "It also examines how young Europeans talk about these issues in qualitative interviews,"
+            "making it possible to compare media narratives with Gen Z perspectives across countries."
+
         )
 
         st.markdown("### Analytical perspective")
         st.write(
-            "Using qualitative discourse analysis, the research explores recurring themes, "
-            "narratives, and justificatory patterns in communication related to defence "
-            "and security."
+            "The study uses qualitative discourse analysis to examine how language shapes meanings around"
+            "security and defence. It identifies recurring argumentation patterns, topoi, and metaphors"
+            "in media discourse and compares them across cases. These findings are then related to Gen Z" 
+            "interview narratives to assess similarities and differences between media discourse and Gen Z's"
+            "perspectives."
+
         )
 
         st.markdown("### Why does this matter?")
         st.write(
-            "Public discourse shapes how security challenges are understood and how policy "
-            "responses become legitimate. Studying these narratives helps reveal how defence "
-            "and security are politically communicated."
+            "Media discourse plays an important role in shaping how security and defence are understood,"
+            "and socially legitimized. By comparing these media narratives with Gen Z interview perspectives,"
+            "the study makes it possible to see whether dominant public narratives are reproduced, or challenged"
+            "by younger audiences."
+
         )
 elif selected == "Theory":
     theory_page = st.query_params.get("theory", "overview")
@@ -276,7 +288,7 @@ elif selected == "Theory":
                 st.rerun()
 
     elif theory_page == "industrial_military_complex":
-        st.title("Historical development of the industrial-military complex")
+        st.title("The industrial-military complex")
 
         if st.button("← Back to Theory"):
             st.query_params["page"] = "Theory"
@@ -288,18 +300,40 @@ elif selected == "Theory":
         st.write(
             "The industrial-military complex provides an important historical backdrop for understanding "
             "how defence institutions, political actors, and industrial interests became increasingly intertwined."
+            
+            "The concept of the military-industrial complex helps explain the close relationship between political"
+            "decision-makers, military institutions, and defence companies. First introduced by Dwight D. Eisenhower"
+            "in 1961, it draws attention to the growing influence that can emerge when security policy, industrial "
+            "interests, and military structures become closely interconnected."
+            
+            "In the European context, this relationship is shaped by three overlapping levels, including the EU, "
+            "national governments, and NATO. Together, these actors influence defence spending, industrial policy,"
+            "strategic priorities, and the broader environment in which defence companies operate."
         )
 
-        st.write(
-            "Over time, defence communication evolved alongside these institutional and economic structures. "
-            "This historical development shaped how military capacity, security needs, and strategic priorities "
-            "were publicly framed and legitimised."
-        )
 
-        st.markdown("### Why this matters for Aithra")
+        st.markdown("### Historical development of the industrial-military complex")
         st.write(
-            "Understanding this background helps situate contemporary defence discourse within longer histories "
-            "of political communication, institutional authority, and public justification."
+            "The European military-industrial complex developed in three main phases."
+            "During the Cold War, defence production was largely state-driven and organised around national security"
+            "priorities. 
+            "After the Cold War, lower defence budgets, rising costs, and market pressures led to consolidation,"
+            "privatisation, and greater European cooperation."
+            "Since Russia’s invasion of Ukraine, defence has regained strategic urgency, bringing renewed investment,"
+            "rearmament debates, and greater public visibility for defence companies."
+            
+            "Across these phases, defence companies have remained closely connected to governments, even as their role"
+            "has become more corporate and internationally networked. This helps explain why the sector remains politically"
+            "sensitive and why communication is closely tied to issues of legitimacy, sovereignty, and public acceptance."
+        )
+        
+        
+        st.markdown("### Why this matters?")
+        st.info(
+            "Understanding the historical background of the European military-industrial complex helps explain how current defence"
+            "communication is shaped by questions of authority, legitimacy, and public acceptance. And it also helps understand the"
+            "communication challenges that shape the sector today."
+
         )
 
     elif theory_page == "genz":
