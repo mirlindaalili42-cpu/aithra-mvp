@@ -167,7 +167,7 @@ elif selected == "About":
 
         st.write(
             "This platform is based on the master’s thesis"
-            "Perspectives on Security and Defence among Young Europeans and in the Media:"
+            ""Perspectives on Security and Defence among Young Europeans and in the Media:""
             "A Cross-National Discourse Analysis on Communication Challenges for the Defence Industry."
         )
 
@@ -316,7 +316,7 @@ elif selected == "Theory":
         st.write(
             "The European military-industrial complex developed in three main phases."
             "During the Cold War, defence production was largely state-driven and organised around national security"
-            "priorities."
+            "priorities. 
             "After the Cold War, lower defence budgets, rising costs, and market pressures led to consolidation,"
             "privatisation, and greater European cooperation."
             "Since Russia’s invasion of Ukraine, defence has regained strategic urgency, bringing renewed investment,"
@@ -347,8 +347,18 @@ elif selected == "Theory":
         st.markdown("---")
 
         st.write(
-            "Gen Z represents an especially important audience in contemporary communication because it engages "
-            "with politics, media, and institutions in ways that differ from earlier generations."
+            "Generation Z is a key audience because it is the youngest generation entering adulthood and will play an increasingly"
+            "important role in shaping Europe’s social, political, and economic future. Shaped by digital media, economic uncertainty,"
+            "climate anxiety, and geopolitical crises, Gen Z approaches institutions, public issues, and communication differently from"
+            "older generations."
+            
+            "These experiences influence how young people consume information, evaluate legitimacy, and form opinions on security and "
+            "defence. At the same time, Gen Z is becoming more important as a workforce, an electorate, and a consumer group, which makes"
+            "their attitudes especially relevant for organisations seeking long-term legitimacy and public relevance."
+            
+            "For the defence industry, this is particularly important because Gen Z often recognises the importance of security, while at"
+            "the same time showing limited familiarity with defence companies and expressing ethical concerns about the sector. This makes"
+            "Gen Z a strategically important audience for communication that aims to be credible, transparent, and socially meaningful."
         )
 
         st.write(
@@ -358,9 +368,8 @@ elif selected == "Theory":
 
         st.markdown("### Why this matters for the project")
         st.write(
-            "Focusing on Gen Z helps highlight how defence communication must adapt when addressing audiences that are "
-            "digitally socialised, media-critical, and often distant from traditional strategic language."
-        )
+            "Focusing on Gen Z helps explain why defence communication must respond to audiences that are digitally shaped,"
+            "value-driven, and often distant from traditional defence narratives."
 
     elif theory_page == "cross_communication":
         st.title("Cross-communication challenges")
@@ -373,20 +382,21 @@ elif selected == "Theory":
         st.markdown("---")
 
         st.write(
-            "Communicating defence and security issues is challenging because messages often move across very different "
-            "audiences, institutional settings, and communicative expectations."
+            "Communicating in the defence sector is especially challenging for multinational companies operating across"
+            "different national, linguistic, and political contexts. Messages need to remain strategically consistent at"
+            "the corporate level while also being adapted to local expectations, public debates, and cultural norms."
+            
+            "What is clear, legitimate, or credible in one country may be interpreted differently in another. This creates"
+            "tensions between global coordination and local adaptation, between expert language and public accessibility, "
+            "and between corporate objectives and broader societal expectations."
         )
 
-        st.write(
-            "What may appear clear and legitimate in one context can seem opaque, distant, or unconvincing in another. "
-            "This creates tensions between expert language and public accessibility, between institutional priorities "
-            "and audience reception, and between strategic messaging and democratic communication."
-        )
 
         st.markdown("### Relevance for Aithra")
         st.write(
-            "Aithra helps make these challenges more visible by creating a space in which discourse can be explored, "
-            "compared, and interpreted across communicative settings."
+            "Aithra helps make these challenges more visible by showing how defence and security narratives differ across"
+            "national contexts. In this way, the platform supports a better understanding of how communication must be in" 
+            "terpreted, adapted, and strategically managed across countries."
         )
 
     elif theory_page == "discourse_theory":
@@ -400,24 +410,23 @@ elif selected == "Theory":
         st.markdown("---")
 
         st.write(
-            "Discourse theory provides the conceptual basis for analysing how language produces meaning, structures "
-            "interpretation, and shapes political reality."
+            "Discourse theory provides the conceptual foundation for analysing how language shapes meaning, structures " 
+            "interpretation, and contributes to the construction of social reality. Rather than treating communication as"
+            "neutral information transfer, it highlights how meanings, narratives, and categories are socially produced, " 
+            "circulated, and made relevant through discourse."
         )
 
         st.write(
-            "Rather than treating communication as neutral information transfer, discourse theory highlights how ideas, "
-            "categories, and narratives are constructed, repeated, and made socially meaningful."
-        )
-
-        st.write(
-            "In the context of defence and security, this means asking how threats, responsibilities, legitimacy, "
-            "and strategic priorities are framed through language."
+            "In the context of defence and security, this means examining how issues such as threat, responsibility, " 
+            "legitimacy, and strategic priorities are constructed through media discourse. It also means understanding" 
+            "discourse not only as individual texts, but as broader patterns of meaning shaped by social, institutional, " 
+            "and historical contexts."
         )
 
         st.markdown("### Why discourse theory is central here")
         st.write(
-            "Aithra is grounded in the idea that discourse does not simply reflect security politics — "
-            "it actively helps constitute how security is understood and communicated."
+            "Aithra is grounded in the idea that discourse does not simply reflect security politics,"
+            "it actively helps constitute how security is understood, communicated, and legitimized."
         )
 
 
