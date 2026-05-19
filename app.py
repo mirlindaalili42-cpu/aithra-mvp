@@ -141,7 +141,7 @@ elif selected == "About":
         st.markdown("### Why was it created?")
         st.write(
             "Aithra was created to present qualitative research in a more professional, accessible,"
-            and engaging way."
+            "and engaging way."
             "It transforms complex analytical work into a digital format that makes findings"
             "easier to navigate, compare, and communicate."
         )
