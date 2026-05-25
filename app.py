@@ -411,10 +411,10 @@ elif selected == "Theory":
         st.markdown("---")
 
         st.write(
-            "Discourse theory provides the conceptual foundation for analysing how language shapes meaning, structures " 
-            "interpretation, and contributes to the construction of social reality. Rather than treating communication as"
-            "neutral information transfer, it highlights how meanings, narratives, and categories are socially produced, " 
-            "circulated, and made relevant through discourse."
+            "Discourse theory understands language not as neutral information, but as a form of social practice that helps"
+            "shape how reality is understood. Fairclough argues that discourse is closely connected to social relations," 
+            "meanings, and power structures, and should therefore be analysed not only at the level of texts, but also in" 
+            "relation to how texts are produced, interpreted, and embedded in wider social conditions."
         )
 
         st.write(
