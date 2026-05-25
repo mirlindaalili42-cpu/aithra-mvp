@@ -385,7 +385,7 @@ elif selected == "Theory":
         st.write(
             "Communicating in the defence sector is especially challenging for multinational companies operating across"
             "different national, linguistic, and political contexts. Messages need to remain strategically consistent at"
-            "the corporate level while also being adapted to local expectations, public debates, and cultural norms."
+            " the corporate level while also being adapted to local expectations, public debates, and cultural norms."
             
             "What is clear, legitimate, or credible in one country may be interpreted differently in another. This creates"
             "tensions between global coordination and local adaptation, between expert language and public accessibility, "
@@ -497,30 +497,35 @@ elif selected == "Discourse Analysis":
         st.markdown("---")
 
         st.write(
-            "This project uses qualitative discourse analysis to examine how defence and security "
-            "issues are communicated, framed, and justified across different national contexts."
+            "This project uses a discourse-analytical approach based on Spitzmüller and Warnke, who " 
+            "understand discourse analysis as a transtextual form of linguistic analysis. Rather than" 
+            "treating texts as isolated units, this approach examines how meaning is produced both within" 
+            "individual texts and across broader networks of related texts shaped by social and historical " 
+            "contexts."
         )
 
-        st.write(
-            "The analysis focuses on recurring themes, patterns of meaning-making, and the ways "
-            "in which language constructs ideas such as threat, legitimacy, responsibility, and strategy."
-        )
+
 
         st.markdown("### How the analysis was conducted")
         st.write(
-            "The material was examined through close reading and thematic interpretation. "
-            "Particular attention was given to recurring narratives, key concepts, justificatory language, "
-            "and differences in communicative emphasis across cases."
+            "The analysis was carried out on two levels. First, the newspaper articles were examined on an" 
+            "intratextual level, meaning that each article was analysed on its own, with attention to its " 
+            "internal structures of meaning such as argumentation patterns, topoi, and metaphors. Second," 
+            "the findings were examined on a transtextual level, meaning that the articles were compared " 
+            "with one another in order to identify recurring patterns, shared narratives, and differences "
+            "across the national cases." 
         )
 
         st.markdown("### Analytical focus")
-        st.markdown("""
-        - framing of defence and security issues  
-        - construction of threat and responsibility  
-        - patterns of legitimacy and justification  
-        - recurring narratives across country cases  
-        - similarities and differences in discourse  
-        """)
+      
+        st.write(
+            "The analsysis focuses on:" 
+            - Framing of defence and security issues.
+            - Construction of threat, legitimacy, and responsibility.
+            - Argumentation patterns, topoi, and metaphors.
+            - Recurring narratives across countries. 
+            - Similarities and differences in discourse.
+            )
 
     # ANALYSIS SUMMARY
     elif analysis_page == "summary":
@@ -533,23 +538,48 @@ elif selected == "Discourse Analysis":
 
         st.markdown("---")
 
+        st.markdown("### Cross-national patterns")
         st.write(
-            "The discourse analysis reveals both shared and divergent patterns in how defence "
-            "and security are communicated across the selected country cases."
+            "Building on the analysis of individual articles, this section examines the corpus on a broader transtextual level" 
+            "by identifying recurring patterns, similarities, and differences across the four national cases. Rather than treating" 
+            "media texts as simple reflections of political reality, the analysis understands them as active contributions to the " 
+            "production of meaning, legitimacy, and power in the field of defence and security."
         )
-
+        st.write(
+            "The findings show that defence is not legitimized through a single European discourse, but through nationally specific " 
+            "patterns of argumentation. In Germany, discourse is shaped primarily by alliance obligation; in the UK, by threat and " 
+            "urgency; in Spain, by defence industry and innovation; and in France, by strategic sovereignty and reduced dependence " 
+            "on the United States."
+        )
+        
         st.markdown("### Key observations")
         st.markdown("""
-        - defence communication often combines strategic justification with public legitimacy claims  
-        - narratives of threat and responsibility appear across multiple contexts  
-        - countries differ in tone, emphasis, and communicative style  
-        - some cases place stronger emphasis on national security, while others stress cooperation or public trust  
+        - Defence is framed through distinct national priorities rather than a unified European narrative.
+        - Germany and the UK place particular emphasis on NATO, deterrence, and alliance-based legitimacy.
+        - Spain more often presents defence through industrial capability, innovation, and modernization.
+        - France strongly links defence to strategic sovereignty and the goal of strengthening Europe’s autonomy.
+        - Across all cases, defence is constructed not only as a military issue, but also as a political, industrial, and communicative field.  
         """)
 
+        
+        st.markdown("### The defence industry")
+        st.write(
+            " A further recurring pattern is the changing legitimacy of the defence industry itself. Across the corpus, defence companies " 
+            "are no longer presented primarily as ethically controversial actors, but increasingly as legitimate contributors to security, " 
+            "industrial capacity, innovation, and sovereignty."
+            
+            "This shift is especially visible in the Spanish and French cases, where the sector is closely tied to modernization, procurement, " 
+            "and strategic independence. In the German and British cases, the industry is more often legitimized through capability needs, deterrence," 
+            "and alliance commitments."
+        )
+
+        
         st.markdown("### Overall interpretation")
         st.write(
-            "Taken together, the findings suggest that defence discourse is shaped not only by strategic concerns, "
-            "but also by the need to communicate across diverse publics, political cultures, and institutional settings."
+            "Taken together, the findings suggest that defence discourse is shaped by the interaction of security concerns, geopolitical positioning, " 
+            "national interests, and questions of legitimacy. While all four countries contribute to a broader post-2022 re-legitimization of defence " 
+            "and the defence industry, they do so through different national discursive logics, reflecting their own political cultures, strategic priorities," 
+            "and understandings of security."
         )
 
     # COUNTRY COMPARISON
@@ -579,27 +609,26 @@ elif selected == "Discourse Analysis":
 
         if selected_countries:
             comparison_data = {
-                "UK": {
-                    "Main focus": "Strategic credibility and international responsibility",
-                    "Discursive emphasis": "Security leadership, defence readiness, alliance role",
-                    "Tone": "Strategic and assertive"
-                },
-                "France": {
-                    "Main focus": "Strategic autonomy and national defence capacity",
-                    "Discursive emphasis": "Sovereignty, military capability, independent action",
-                    "Tone": "State-centred and strategic"
-                },
-                "Germany": {
-                    "Main focus": "Responsibility, legitimacy, and political caution",
-                    "Discursive emphasis": "Public justification, democratic accountability, strategic adaptation",
-                    "Tone": "Careful and legitimising"
-                },
-                "Spain": {
-                    "Main focus": "Cooperation, stability, and institutional alignment",
-                    "Discursive emphasis": "Collective security, partnership, European and international frameworks",
-                    "Tone": "Cooperative and institutionally oriented"
-                }
-            }
+"United Kingdom": {
+    "Main focus": "Threat, deterrence, and alliance commitment",
+    "Discursive emphasis": "Imminent danger, military readiness, NATO legitimacy",
+    "Tone": "Urgent and assertive"
+},
+"France": {
+    "Main focus": "Strategic sovereignty and reduced dependence on the United States",
+    "Discursive emphasis": "European autonomy, political independence, defence-industrial strength",
+    "Tone": "Sovereignty-driven and strategic"
+},
+"Germany": {
+    "Main focus": "Alliance obligation, rebuilding, and military modernization",
+    "Discursive emphasis": "NATO commitment, capability restoration, cautious legitimation",
+    "Tone": "Obligation-based and careful"
+},
+"Spain": {
+    "Main focus": "Defence industry, innovation, and modernization",
+    "Discursive emphasis": "Industrial capability, technological development, strategic sector framing",
+    "Tone": "Modernizing and industry-oriented"
+}
 
             for country in selected_countries:
                 st.markdown(f"## {country}")
