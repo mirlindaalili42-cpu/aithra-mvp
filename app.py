@@ -630,6 +630,7 @@ elif selected == "Discourse Analysis":
     "Discursive emphasis": "Industrial capability, technological development, strategic sector framing",
     "Tone": "Modernizing and industry-oriented"
 }
+                }
 
             for country in selected_countries:
                 st.markdown(f"## {country}")
