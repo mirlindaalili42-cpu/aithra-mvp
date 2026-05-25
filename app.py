@@ -517,15 +517,16 @@ elif selected == "Discourse Analysis":
         )
 
         st.markdown("### Analytical focus")
-      
-        st.write(
-            "The analsysis focuses on" 
-            - Framing of defence and security issues.
-            - Construction of threat, legitimacy, and responsibility.
-            - Argumentation patterns, topoi, and metaphors.
-            - Recurring narratives across countries. 
-            - Similarities and differences in discourse.
-            )
+
+        st.write("The analysis focuses on:")
+
+        st.markdown("""
+        - Framing of defence and security issues
+        - Construction of threat, legitimacy, and responsibility
+        - Argumentation patterns, topoi, and metaphors
+        - Recurring narratives across countries
+        - Similarities and differences in discourse
+        """)
 
     # ANALYSIS SUMMARY
     elif analysis_page == "summary":
