@@ -519,7 +519,7 @@ elif selected == "Discourse Analysis":
         st.markdown("### Analytical focus")
       
         st.write(
-            "The analsysis focuses on:" 
+            "The analsysis focuses on" 
             - Framing of defence and security issues.
             - Construction of threat, legitimacy, and responsibility.
             - Argumentation patterns, topoi, and metaphors.
