@@ -659,6 +659,11 @@ elif selected == "Visuals":
     st.title("Visuals")
     st.write("This is the Visuals screen.")
 
+st.markdown("## Visuals")
+
+st.image("image1.jpg", caption="Visual 1", use_container_width=True)
+st.image("image2.jpg", caption="Visual 2", use_container_width=True)
+
 # Guide screen
 elif selected == "Guide":
     guide_page = st.query_params.get("guide", "overview")
