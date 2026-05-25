@@ -610,7 +610,7 @@ elif selected == "Discourse Analysis":
 
         if selected_countries:
             comparison_data = {
-"United Kingdom": {
+"UK": {
     "Main focus": "Threat, deterrence, and alliance commitment",
     "Discursive emphasis": "Imminent danger, military readiness, NATO legitimacy",
     "Tone": "Urgent and assertive"
